@@ -37,8 +37,8 @@ Project repository created and game started.I have created a plane that is being
 3d cylinders to achieve the effect that was given in the design document pictures.These which I put in Pink to match.I then went and created the main player using different 3d shapes to match the character given in the design document pictures also.
 These steps which took some timne in doing.I then added The player controller functionality where they could move using the wasd or arrow keyboard keys. 
 I then imported an asset from the asset store of a skybox that gave my game a nice futuristic space like feel which the design theme set out for.I went and then added music to my game that plays at the beinning of the game for a "Cyberpunk 80s theme" feel as requested in the design document.
-![](Images/filename playerImage.png)
-![](Images/filename mapLayout.png)
+![](Images/filename%20playerImage.png)
+![](Images/filename%20mapLayout.png)
 
 ## 20/11/2020 
 
