@@ -52,10 +52,12 @@ I redone my Level 1 scene and this time I made the player and the camera move in
 
 
 ## 03/12/2020 
-
+Part (1)
 Added functionality to move between menus.
 
-
+part (2)
+added better surrounding visuals to the gameplay scene. This where I got assests to have the following.Pyramids(which i modified to add blue edges like image in design brief),
+planet which is also in the design brief photo,stars and clouds in the distance to make some realism.(moving objects).Added an image to the plane(ground) which makes the ground look like a grid as in design document image.
 
 [Back To The Top](#MobileProjectDevDiary)
 
