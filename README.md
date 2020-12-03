@@ -45,9 +45,17 @@ I then imported an asset from the asset store of a skybox that gave my game a ni
 I went and added the functionality of the player being able to jump on request by the user when the spacebar is pressed.
 
 
-## 03/12/2020 
+## 02/12/2020 
 
 I redone my Level 1 scene and this time I made the player and the camera move in the same direction in Sync (this done by two scripts.one for camera and one for player character).This which pushes the player forward in the correct way for an Infinite Runner Game.I also created another two levels identical to the first bar the enemies and pickups located on the players route.This which I have different in each level as I am distinguishing the difference in levels and what they should contain.for eg: (level 1 for now has 1 enemy ) (level 2 for now has 3 enemys and one pickup ) (level 3 for now has 5 enemys and two pick ups ).This just for myself to keep the level requirements visable and a self reminder.
+
+
+
+## 03/12/2020 
+
+Added functionality to move between menus.
+
+
 
 [Back To The Top](#MobileProjectDevDiary)
 
