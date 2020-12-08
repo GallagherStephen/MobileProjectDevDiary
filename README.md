@@ -59,6 +59,13 @@ part (2)
 added better surrounding visuals to the gameplay scene. This where I got assests to have the following.Pyramids(which i modified to add blue edges like image in design brief),
 planet which is also in the design brief photo,stars and clouds in the distance to make some realism.(moving objects).Added an image to the plane(ground) which makes the ground look like a grid as in design document image.
 
+
+
+## 08/12/2020 
+
+added pickups for the player to collect and destroy on collision.These "mail" pickups which when picked up will add up the score for the player . #Making up the objective of the game to get a high score.
+Added scripts to game to maske this possible (mailScript + pointScript )
+
 [Back To The Top](#MobileProjectDevDiary)
 
 ---
