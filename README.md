@@ -63,8 +63,18 @@ planet which is also in the design brief photo,stars and clouds in the distance 
 
 ## 08/12/2020 
 
-added pickups for the player to collect and destroy on collision.These "mail" pickups which when picked up will add up the score for the player . #Making up the objective of the game to get a high score.
-Added scripts to game to maske this possible (mailScript + pointScript )
+-added pickups for the player to collect and destroy on collision.These "mail" pickups which when picked up will add up the score for the player .Making up the objective of the game to  get a high score.
+
+-Added scripts to game to maske this possible (mailScript + pointScript )
+-added a tile spawner that makes the game endless being a endless runner.
+-fixed being able to die by enemies and pick up emails ,which was an issue the way i had it setup
+-Added a Volume toggle to the game with a "MuteManager" script
+-fixed toggle volume on main menu
+-removed unwanted scenes
+-fixed quit button to quit the application by adding quit method in "buttonManager" script
+-added load game -level select menu - with EASY , MODERATE & HARD levels
+-added the pause menu overlaps the gameScene when "ESC" button is pressed .
+
 
 [Back To The Top](#MobileProjectDevDiary)
 
