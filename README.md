@@ -76,6 +76,17 @@ planet which is also in the design brief photo,stars and clouds in the distance 
 -added the pause menu overlaps the gameScene when "ESC" button is pressed .
 
 
+## 09/12/2020
+
+-created the following enemies : firewalls and baston servers
+- created a high score UI element for player to see .
+- created a Time UI element for player to see when in game .(created a TimeScript for this which outputs time to two decimal spaces as passed in "f2" ..to four decimals would be "f4")
+- added dialoge popup box on "trigger enter" at start of each level - DialogeTrigger Cube element ("DialogeTriggerScript")
+- added a trigger to load to the next level using a script i called "LoadLevelTrigger"
+-linked all levels together with the level trigger at end .This making a completed game feel.
+-added music to end game scene
+-changed the plane ground on each level to distinguish changed levels
+
 [Back To The Top](#MobileProjectDevDiary)
 
 ---
