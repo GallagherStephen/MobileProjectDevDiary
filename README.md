@@ -87,6 +87,16 @@ planet which is also in the design brief photo,stars and clouds in the distance 
 -added music to end game scene
 -changed the plane ground on each level to distinguish changed levels
 
+
+## 10/12/2020
+
+-created sounds to play on awake at the start of each game scene
+-added the correct powerups  to each scene
+-added a purple particle effect to instantiate when trigger the powerup object with player
+-changed speed of the player for each level (to show change)
+-added that each level enemy count is higher to make each level harder
+-added 5 baston servers (enemy) to level 3
+
 [Back To The Top](#MobileProjectDevDiary)
 
 ---
