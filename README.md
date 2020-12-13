@@ -97,6 +97,11 @@ planet which is also in the design brief photo,stars and clouds in the distance 
 -added that each level enemy count is higher to make each level harder
 -added 5 baston servers (enemy) to level 3
 
+## 13/12/2020
+- copied current "status" of scenes 1-3 including end game scene and renamed them to create a Local Multiplayer.
+- linked all multiplayer scenes to transition between them by end of scene triggers and by button press's to load next scene.
+
+
 [Back To The Top](#MobileProjectDevDiary)
 
 ---
