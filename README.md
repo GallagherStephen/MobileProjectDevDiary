@@ -53,53 +53,59 @@ I redone my Level 1 scene and this time I made the player and the camera move in
 
 ## 03/12/2020 
 Part (1)
-Added functionality to move between menus.
+- Added functionality to move between menus.
 
 part (2)
-added better surrounding visuals to the gameplay scene. This where I got assests to have the following.Pyramids(which i modified to add blue edges like image in design brief),
-planet which is also in the design brief photo,stars and clouds in the distance to make some realism.(moving objects).Added an image to the plane(ground) which makes the ground look like a grid as in design document image.
+- added better surrounding visuals to the gameplay scene. This where I got assests to have the following.Pyramids(which i modified to add blue edges like image in design brief),
+- planet which is also in the design brief photo,stars and clouds in the distance to make some realism.(moving objects).Added an image to the plane(ground) which makes the ground look like a grid as in design document image.
 
 
 
 ## 08/12/2020 
 
--added pickups for the player to collect and destroy on collision.These "mail" pickups which when picked up will add up the score for the player .Making up the objective of the game to  get a high score.
+- added pickups for the player to collect and destroy on collision.These "mail" pickups which when picked up will add up the score for the player .Making up the objective of the game to  get a high score.
 
--Added scripts to game to maske this possible (mailScript + pointScript )
--added a tile spawner that makes the game endless being a endless runner.
--fixed being able to die by enemies and pick up emails ,which was an issue the way i had it setup
--Added a Volume toggle to the game with a "MuteManager" script
--fixed toggle volume on main menu
--removed unwanted scenes
--fixed quit button to quit the application by adding quit method in "buttonManager" script
--added load game -level select menu - with EASY , MODERATE & HARD levels
--added the pause menu overlaps the gameScene when "ESC" button is pressed .
+- Added scripts to game to maske this possible (mailScript + pointScript )
+- added a tile spawner that makes the game endless being a endless runner.
+- fixed being able to die by enemies and pick up emails ,which was an issue the way i had it setup
+- Added a Volume toggle to the game with a "MuteManager" script
+- fixed toggle volume on main menu
+- removed unwanted scenes
+- fixed quit button to quit the application by adding quit method in "buttonManager" script
+- added load game -level select menu - with EASY , MODERATE & HARD levels
+- added the pause menu overlaps the gameScene when "ESC" button is pressed .
 
 
 ## 09/12/2020
 
--created the following enemies : firewalls and baston servers
+- created the following enemies : firewalls and baston servers
 - created a high score UI element for player to see .
 - created a Time UI element for player to see when in game .(created a TimeScript for this which outputs time to two decimal spaces as passed in "f2" ..to four decimals would be "f4")
 - added dialoge popup box on "trigger enter" at start of each level - DialogeTrigger Cube element ("DialogeTriggerScript")
 - added a trigger to load to the next level using a script i called "LoadLevelTrigger"
--linked all levels together with the level trigger at end .This making a completed game feel.
--added music to end game scene
--changed the plane ground on each level to distinguish changed levels
+- linked all levels together with the level trigger at end .This making a completed game feel.
+- added music to end game scene
+- changed the plane ground on each level to distinguish changed levels
 
 
 ## 10/12/2020
 
--created sounds to play on awake at the start of each game scene
--added the correct powerups  to each scene
--added a purple particle effect to instantiate when trigger the powerup object with player
--changed speed of the player for each level (to show change)
--added that each level enemy count is higher to make each level harder
--added 5 baston servers (enemy) to level 3
+- created sounds to play on awake at the start of each game scene
+- added the correct powerups  to each scene
+- added a purple particle effect to instantiate when trigger the powerup object with player
+- changed speed of the player for each level (to show change)
+- added that each level enemy count is higher to make each level harder
+- added 5 baston servers (enemy) to level 3
 
 ## 13/12/2020
 - copied current "status" of scenes 1-3 including end game scene and renamed them to create a Local Multiplayer.
 - linked all multiplayer scenes to transition between them by end of scene triggers and by button press's to load next scene.
+
+## 14/12/2020
+- added that you restart the "current" level you are on if you die in Multiplayer.for P1 & P2. (Like a checkpoint system)
+- clamped the players movement between the values (-1.7f , 1.7f) on the x axis.
+
+
 
 
 [Back To The Top](#MobileProjectDevDiary)
