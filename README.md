@@ -104,7 +104,7 @@ part (2)
 ## 14/12/2020
 - added that you restart the "current" level you are on if you die in Multiplayer.for P1 & P2. (Like a checkpoint system)
 - clamped the players movement between the values (-1.7f , 1.7f) on the x axis.
-
+- Added Title of Game to starting game Menu
 
 
 
